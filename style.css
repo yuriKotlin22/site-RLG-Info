@@ -1,0 +1,352 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.nav_header {
+    align-items: center;
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+    height: 62px;
+}
+
+.logo_rlg {
+    width: 148px;
+    margin-left: 55px;
+    margin-top: 76px;
+}
+
+.logo_ironcell {
+    width: 300px;
+    margin-top: 93px;
+}
+
+.header_link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-left: 60px;
+    border: white solid 4px;
+    padding: 4px;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.nav_redes_socias {
+    margin-left: 19%;
+    margin-top: 67px;
+}
+
+.icon_rede_social_nav {
+    width: 30px;
+    padding: 4px;
+}
+
+.nav_paginas {
+    display: flex;
+    margin-top: 63px;
+}
+
+.main {
+    background-color: #3674B5;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 2%;
+    margin-top: 109px;
+    border-radius: 8px;
+
+}
+
+.apresentacao {
+    width: 57%;
+}
+
+.titulo_apresentacao {
+    font-size: 41px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 13px;
+}
+
+
+.txt_apresentacao {
+    font-size: 22px;
+    font-family: system-ui;
+}
+
+.txt_destaque {
+    font-size: 24px;
+    color: khaki;
+}
+
+.div_lista {
+    margin-left: 20px;
+    font-family: system-ui;
+}
+
+.img_icon {
+    width: 40px;
+    margin-top: -7px;
+}
+
+.lista_apresentacao {
+    font-size: 22px;
+    display: flex;
+    gap: 13px;
+}
+
+.destaque_lista {
+    font-size: 20px;
+    border: red solid 3px;
+    padding: 4px;
+    text-align: center;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.img_principal {
+    width: 550px;
+    padding: 10px;
+    height: 432px;
+    border-radius: 22px;
+}
+
+.btn_conserto {
+    display: flex;
+    gap: 16px;
+    margin-top: 36px;
+    margin-left: 14px;
+}
+
+.icon_conserto {
+    width: 50px;
+}
+
+.link_conserto {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: white solid 4px;
+    padding: 10px;
+    border-radius: 14px;
+    width: 26%;
+}
+
+.btn_conserto :hover {
+    background-color: #26355D;
+}
+
+.avaliacoes {
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.titulo_avaliacaoes {
+    margin-bottom: 3px;
+    font-size: 59px;
+}
+
+.img_estrelinha {
+    width: 38px;
+    margin-bottom: 24px;
+}
+
+.img_avaliacoes {
+    width: 21%;
+    margin-left: 58px;
+    padding: 4px;
+    border-radius: 16px;
+}
+
+
+.footer {
+    background-color: #26355D;
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+    gap: 52px;
+    margin-top: 32px;
+}
+
+.footer_endereço {
+    font-size: 20px;
+    margin-left: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer_horario {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer_telefone {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+
+    .logo_rlg {
+        width: 61px;
+        margin-left: 2px;
+        margin-top: 76px;
+    }
+
+    .logo_ironcell {
+        width: 135px;
+        margin-top: 93px;
+        margin-left: -19px;
+    }
+
+    .nav_paginas {
+        margin-top: 80px;
+        display: flex;
+        margin-left: -65px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav_redes_socias {
+        margin-left: 37px;
+        margin-top: 86px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 12px;
+    }
+
+    .img_principal {
+        margin-bottom: 156px;
+        margin-left: 6px;
+        border-radius: 22px;
+        height: 0%;
+        width: 364px;
+    }
+
+    .titulo_apresentacao {
+        font-size: 29px;
+        margin: -153px;
+        margin-bottom: 143px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 28px;
+    }
+
+    .txt_apresentacao {
+        font-size: 22px;
+        font-family: system-ui;
+        margin: -115px;
+        margin-left: 25px;
+    }
+
+    .img_icon {
+        height: 83px;
+        width: 73px;
+    }
+
+    .div_lista {
+        display: flex;
+        flex-direction: column;
+        margin-left: 42px;
+        margin-top: 187px;
+        margin-bottom: 170px;
+        gap: 105px;
+        font-family: system-ui;
+    }
+
+    .lista_apresentacao {
+        font-size: 21px;
+        margin: -38px;
+        display: flex;
+        gap: 14px;
+    }
+
+    .destaque_lista {
+        font-size: 20px;
+        border: red solid 3px;
+        padding: 3px;
+        margin: -63px -72px 18px 79px;
+        text-align: center;
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .btn_conserto {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 53px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+
+    .link_conserto {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 600;
+        border: white solid 4px;
+        padding: 12px;
+        border-radius: 14px;
+        width: 132%;
+    }
+
+    .titulo_avaliacaoes {
+        margin-bottom: -5px;
+        font-size: 47px;
+    }
+
+    .galeria_avalicoes {
+        display: flex;
+        flex-direction: column;
+        margin-left: 23px;
+        width: 272%;
+    }
+
+    .footer {
+        background-color: #26355D;
+        padding: 4px;
+        border-radius: 4px;
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+        margin: 6px 6px 2px 4px;
+    }
+
+    .footer_endereço {
+        font-size: 26px;
+        margin-left: 11px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .footer_horario {
+        font-size: 26px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .footer_telefone {
+        font-size: 26px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+}
