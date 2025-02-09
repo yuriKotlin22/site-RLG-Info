@@ -313,15 +313,16 @@ body {
 
     .titulo_avaliacaoes {
         margin-bottom: -5px;
-        font-size: 47px;
+        font-size: 45px;
     }
 
-    .galeria_avalicoes {
-        display: flex;
-        flex-direction: column;
-        margin-left: 23px;
-        width: 272%;
+    .img_avaliacoes {
+        width: 80%;
+        margin-left: 14px;
+        padding: 4px;
+        border-radius: 14px;
     }
+
 
     .footer {
         background-color: #26355D;
@@ -334,18 +335,20 @@ body {
     }
 
     .footer_endereço {
-        font-size: 26px;
+        font-size: 22px;
         margin-left: 11px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .footer_horario {
-        font-size: 26px;
+        font-size: 22px;
+        margin-left: 10px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .footer_telefone {
-        font-size: 26px;
+        font-size: 22px;
+        margin-left: 12px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
