@@ -98,12 +98,26 @@ body {
     gap: 13px;
 }
 
+.texto_de_opcoes {
+    margin-top: 38px;
+    margin-left: 24px;
+}
+
+.indicacao_reparos {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 38px;
+}
+
+.seta_direita {
+    width: 100px;
+    margin: 8px 4px 50px 5px;
+}
+
 .destaque_lista {
-    font-size: 20px;
-    border: red solid 3px;
+    font-size: 30px;
+    font-family: sans-serif;
     padding: 4px;
-    text-align: center;
-    width: 100%;
     border-radius: 4px;
 }
 
@@ -117,8 +131,7 @@ body {
 .btn_conserto {
     display: flex;
     gap: 16px;
-    margin-top: 36px;
-    margin-left: 14px;
+    margin-left: 46px;
 }
 
 .icon_conserto {
@@ -126,7 +139,8 @@ body {
 }
 
 .link_conserto {
-    display: flex;
+    display: flex
+;
     align-items: center;
     font-size: 18px;
     text-decoration: none;
@@ -136,7 +150,7 @@ body {
     border: white solid 4px;
     padding: 10px;
     border-radius: 14px;
-    width: 26%;
+    width: 10.8125rem;
 }
 
 .btn_conserto :hover {
@@ -196,6 +210,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 @media screen and (max-width: 768px) {
 
     .logo_rlg {
@@ -238,7 +253,7 @@ body {
         margin-left: 6px;
         border-radius: 22px;
         height: 0%;
-        width: 364px;
+        width: 330px;
     }
 
     .titulo_apresentacao {
@@ -264,37 +279,53 @@ body {
     .div_lista {
         display: flex;
         flex-direction: column;
-        margin-left: 42px;
-        margin-top: 187px;
-        margin-bottom: 170px;
-        gap: 105px;
+        margin-left: 17px;
+        margin-top: 9rem;
         font-family: system-ui;
     }
 
     .lista_apresentacao {
         font-size: 21px;
-        margin: -38px;
         display: flex;
-        gap: 14px;
+        gap: 10px;
+        width: 173%;
     }
 
     .destaque_lista {
-        font-size: 20px;
-        border: red solid 3px;
-        padding: 3px;
-        margin: -63px -72px 18px 79px;
+        font-size: 26px;
         text-align: center;
-        width: 100%;
-        border-radius: 4px;
+        font-family: system-ui;
+        margin-left: -6px;
+    }
+
+
+    .indicacao_reparos {
+        display: flex;
+        margin-left: 20px;
+        width: 184%;
+        margin-top: 0px;
+    }
+
+
+    .seta_direita {
+        display: none;
+        width: 100px;
+        margin: -32px 12px 198px 6px;
+    }
+
+
+    .texto_de_opcoes {
+        margin-left: -6px;
     }
 
     .btn_conserto {
         display: flex;
         flex-direction: column;
         gap: 16px;
-        margin-top: 53px;
-        margin-left: 100px;
-        margin-bottom: 20px;
+        margin-top: 14px;
+        margin-left: 70px;
+        width: 61%;
+        margin-bottom: 10px;
     }
 
     .link_conserto {
