@@ -4,39 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assistencia Tecnica RLG | Iron Cell</title>
+    <title>Assistencia Tecnica RLG</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-
     <header>
-        <nav class="nav_header">
-            <img class="logo_rlg" src="./asset/logo/logo_rlg.png" alt="logo_rlg">
-            <img class="logo_ironcell" src="./asset/logo/logo_iron_cell.png" alt="logo_ironcell">
-
-            <div class="nav_paginas">
-                <a class="header_link" href="index.html">Home</a>
-                <a class="header_link" href="#"> Sobre nós</a>
-                <a class="header_link" href="#"> Artigos</a>
+        <nav class="nav_bar">
+            <div class="logo">
+                <img src="/asset/logo/logo_rlg.png" alt="rlg_info">
             </div>
 
-            <div class="nav_redes_socias">
-                <a href="https://www.instagram.com/ironcelln19/"> <img class="icon_rede_social_nav"
-                        src="./asset/icon_nav/instagram.png" alt="icon_instagram"></a>
-
-                <a href=" https://wa.me/5521982654949 "> <img class="icon_rede_social_nav"
-                        src="./asset/icon_nav/whatsapp.png" alt="icon_whatsapp"></a>
+            <div class="nav_list">
+                <ul>
+                    <li class="nav_item"> <a href="#" class="nav_link">Home</a></li>
+                    <li class="nav_item"> <a href="#" class="nav_link">Sobre</a></li>
+                </ul>
             </div>
 
+            <div class="redes_socias">
+                <img src="./asset/icon_nav/instagram.png" alt="icon_instagram" > <a href="#"></a>
+                <img src="./asset/icon_nav/whatsapp.png" alt="icon_instagram" > <a href="#"></a>
+            </div>
 
+            <div class="mobile_menu_icon">
+                <button onclick="menuShow()">
+                    <img class="icon" src="asset/menu_icon_mobile.png" alt="">
+                </button>
+            </div>
         </nav>
+
+        <div class="mobile_menu">
+            <ul>
+                <li class="nav_item"> <a href="#" class="nav_link">Home</a></li>
+                <li class="nav_item"> <a href="#" class="nav_link">Sobre</a></li>
+                <li class="nav_item"> <img src="asset/icon_nav/instagram.png" alt="">
+                <li class="nav_item"> <img src="asset/icon_nav/whatsapp.png" alt="">
+            </ul>
+        </div>
+
     </header>
 
     <main class="main">
 
         <section class="apresentacao">
-            <h1 class="titulo_apresentacao">Assistência Técnica Especializada - Celulares, Notebooks e Impressoras!</h1>
+            <h1 class="titulo_apresentacao">RLG INFORMÁTICA</h1>
+            <h2 class="subtitulo_apresentacao">Assistencia Técnica Especializada - Notebooks, Impressoras e Smartphones</h2>
             <p class="txt_apresentacao"> <strong class="txt_destaque"> Seu dispositivo apresentou defeito?</strong> Não
                 se preocupe! Oferecemos reparos rápidos, confiáveis e com garantia para que você volte a usar seus
                 equipamentos sem dor de cabeça!</p>
@@ -55,7 +68,8 @@
             <div class="indicacao_reparos">
 
                 <img class="seta_direita" src="/asset/seta-para-a-direita.png" alt="seta-para-a-direita">
-                <p class="texto_de_opcoes"><strong class="destaque_lista"> Clique em uma das opções abaixo e fale com um dos nossos técnicos</strong></p>
+                <p class="texto_de_opcoes"><strong class="destaque_lista"> Clique em uma das opções abaixo e fale com um
+                        dos nossos técnicos</strong></p>
             </div>
 
             <div class="btn_conserto">
@@ -102,6 +116,7 @@
         <p class="footer_telefone"> Tel. Contato: 37623964 | 98265-4949</p>
     </footer>
 
+    <script defer src="script.js"></script>
 </body>
 
 </html>
